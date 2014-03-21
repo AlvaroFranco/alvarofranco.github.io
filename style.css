@@ -1,18 +1,8 @@
 @font-face {
-font-family: Avenir-Light;
-font-weight: lighter;
-src: url("Avenir.ttf");
-}
-@font-face {
-font-family: Avenir-Black;
-font-weight: bold;
-src: url("Avenir.ttf");
-}
-@font-face {
 font-family: Avenir;
-font-weight: normal;
-src: url("Avenir.ttf");
+src: url(avenir.ttf);
 }
+
 #repos ul {
   list-style-type: none;
   color: #bbbbbb;
@@ -124,11 +114,11 @@ a {
 
 h1 {
   font-size: 2em;
-  font-family: "Avenir-Black"; }
+  font-family: "Avenir Black"; }
 
 h2 {
   font-size: 1.5em;
-  font-family: "Avenir-Black"; }
+  font-family: "Avenir Black"; }
 
 h3 {
   font-size: 1.25em; }
@@ -142,7 +132,7 @@ strong, h1, h2, h3 {
 p, ul, ol {
   margin: 0 0 1.5em;
   padding: 0;
-  font-family: "Avenir-Light"; }
+  font-family: "Avenir Light"; }
 
 .container {
   width: 550px;
