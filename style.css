@@ -1,6 +1,10 @@
 @font-face {
-font-family: Avenir;
-src: url(avenir.ttf);
+font-family: "Gotham-Light";
+src: url(fonts/Gotham-Light.otf);
+}
+@font-face {
+font-family: "Gotham-Bold";
+src: url(fonts/Gotham-Bold.otf);
 }
 
 #repos ul {
@@ -114,11 +118,11 @@ a {
 
 h1 {
   font-size: 2em;
-  font-family: "Avenir Black"; }
+  font-family: "Gotham-Bold"; }
 
 h2 {
   font-size: 1.5em;
-  font-family: "Avenir Black"; }
+  font-family: "Gotham-Bold"; }
 
 h3 {
   font-size: 1.25em; }
@@ -132,7 +136,7 @@ strong, h1, h2, h3 {
 p, ul, ol {
   margin: 0 0 1.5em;
   padding: 0;
-  font-family: "Avenir Light"; }
+  font-family: "Gotham-Light"; }
 
 .container {
   width: 550px;
