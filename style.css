@@ -26,7 +26,7 @@ src: url(fonts/Gotham-Bold.otf);
     border-radius: 25px; }
   #repos ul span {
     color: inherit;
-    font-size: 0.8em; }
+    font-size: 0.6em; }
   #repos ul a {
     color: inherit; }
   #repos ul li {
@@ -78,6 +78,11 @@ src: url(fonts/Gotham-Bold.otf);
     @media screen and (max-width: 440px) {
       #social ul li {
         width: 50%; } }
+
+#repo-name {
+  margin-bottom: 90px;
+  font-size: 18px;
+}
 
 #copyright {
   text-align: center;
