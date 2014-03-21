@@ -1,10 +1,14 @@
 @font-face {
-font-family: "Gotham-Light";
-src: url(fonts/Gotham-Light.otf);
+font-family: "ProximaNova-Bold";
+src: url(fonts/ProximaNova-Bold.otf);
 }
 @font-face {
-font-family: "Gotham-Bold";
-src: url(fonts/Gotham-Bold.otf);
+font-family: "ProximaNova-Light";
+src: url(fonts/ProximaNova-Light.otf);
+}
+@font-face {
+font-family: "ProximaNova-Regular";
+src: url(fonts/ProximaNova-Regular.otf);
 }
 
 #repos ul {
@@ -98,7 +102,7 @@ src: url(fonts/Gotham-Bold.otf);
 
 #hero {
   color: white;
-  background-color: #ff8000;
+  background-color: #6c707b;
   padding: 4em 0;
   line-height: 1; }
   #hero .container {
@@ -129,11 +133,11 @@ a {
 
 h1 {
   font-size: 2em;
-  font-family: "Gotham-Bold"; }
+  font-family: "ProximaNova-Bold"; }
 
 h2 {
   font-size: 1.5em;
-  font-family: "Gotham-Bold"; }
+  font-family: "ProximaNova-Bold"; }
 
 h3 {
   font-size: 1.25em; }
@@ -147,7 +151,7 @@ strong, h1, h2, h3 {
 p, ul, ol {
   margin: 0 0 1.5em;
   padding: 0;
-  font-family: "Gotham-Light"; }
+  font-family: "ProximaNova-Regular"; }
 
 .container {
   width: 550px;
