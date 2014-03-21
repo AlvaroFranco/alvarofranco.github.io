@@ -9,7 +9,6 @@ src: url(fonts/Gotham-Bold.otf);
 
 #repos ul {
   list-style-type: none;
-  color: #bbbbbb;
   *zoom: 1; }
   #repos ul:before, #repos ul:after {
     content: " ";
@@ -73,15 +72,18 @@ src: url(fonts/Gotham-Bold.otf);
     width: 25%;
     margin-top: 1em; }
     @media screen and (max-width: 540px) {
-      #social ul li {
-        width: 33%; } }
+      #social img {
+        width: 90px;
+        height: auto; } }
     @media screen and (max-width: 440px) {
-      #social ul li {
-        width: 50%; } }
+      #social img {
+        width: 80px;
+        height: auto; } }
 
 #repo-name {
   margin-bottom: 90px;
   font-size: 18px;
+  color: #4db2e7;
 }
 
 #copyright {
@@ -112,8 +114,7 @@ body {
   font-weight: thin;
   line-height: 1.6;
   margin: 0;
-  padding: 0;
-  color: #222222; }
+  padding: 0; }
 
 a {
   color: #4db2e7;
