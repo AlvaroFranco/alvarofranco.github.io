@@ -1,0 +1,158 @@
+@font-face {
+font-family: Avenir-Light;
+font-weight: lighter;
+src: url("Avenir.ttf");
+}
+@font-face {
+font-family: Avenir-Black;
+font-weight: bold;
+src: url("Avenir.ttf");
+}
+@font-face {
+font-family: Avenir;
+font-weight: normal;
+src: url("Avenir.ttf");
+}
+#repos ul {
+  list-style-type: none;
+  color: #bbbbbb;
+  *zoom: 1; }
+  #repos ul:before, #repos ul:after {
+    content: " ";
+    display: table; }
+  #repos ul:after {
+    clear: both; }
+  #repos ul .icon {
+    width: 100px;
+    height: 100px;
+    border: none;
+    display: block;
+    margin: 0 auto 0.5em auto; }
+  #repos ul .icon.ios {
+    border-radius: 25px; }
+  #repos ul span {
+    color: inherit;
+    font-size: 0.8em; }
+  #repos ul a {
+    color: inherit; }
+  #repos ul li {
+    text-align: center;
+    float: left;
+    width: 25%;
+    margin-top: 1em; }
+  #repos img {
+    margin-top: -3.5em; }
+    @media screen and (max-width: 540px) {
+      #repos ul li {
+        width: 33%; } }
+    @media screen and (max-width: 440px) {
+      #repos ul li {
+        width: 50%; } }
+
+#social ul {
+  list-style-type: none;
+  color: #bbbbbb;
+  *zoom: 1; }
+  #social ul:before, #social ul:after {
+    content: " ";
+    display: table; }
+  #social ul:after {
+    clear: both; }
+  #social ul .icon {
+    width: 100px;
+    height: 100px;
+    border: none;
+    display: block;
+    margin: 0 auto 0.5em auto; }
+  #social ul .icon.ios {
+    border-radius: 25px; }
+  #social ul span {
+    color: inherit;
+    font-size: 0.8em; }
+  #social ul a {
+    color: inherit; }
+  #social li {
+    display: table-cell; }
+  #social ul li {
+    text-align: center;
+    float: left;
+    width: 25%;
+    margin-top: 1em; }
+    @media screen and (max-width: 540px) {
+      #social ul li {
+        width: 33%; } }
+    @media screen and (max-width: 440px) {
+      #social ul li {
+        width: 50%; } }
+
+#copyright {
+  text-align: center;
+  color: #bbbbbb;
+  font-size: 0.8em; }
+
+#hero {
+  color: white;
+  background-color: #ff8000;
+  padding: 4em 0;
+  line-height: 1; }
+  #hero .container {
+    text-align: center;
+    margin: 0 auto; }
+  #hero img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-bottom: 2em; }
+  #hero h1 {
+    margin: 0; }
+  #hero p {
+    margin: 0.5em 0; }
+
+body {
+  font-size: 20px;
+  font-weight: thin;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #222222; }
+
+a {
+  color: #4db2e7;
+  text-decoration: none; }
+  a:hover {
+    color: #187fb6; }
+
+h1 {
+  font-size: 2em;
+  font-family: "Avenir-Black"; }
+
+h2 {
+  font-size: 1.5em;
+  font-family: "Avenir-Black"; }
+
+h3 {
+  font-size: 1.25em; }
+
+h1, h2, h3 {
+  margin: 0; }
+
+strong, h1, h2, h3 {
+  font-weight: bold; }
+
+p, ul, ol {
+  margin: 0 0 1.5em;
+  padding: 0;
+  font-family: "Avenir-Light"; }
+
+.container {
+  width: 550px;
+  margin: 3em auto;
+  box-sizing: border-box;
+}
+ @media screen and (max-width: 590px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+    margin: 3em 0;
+  }
+}
